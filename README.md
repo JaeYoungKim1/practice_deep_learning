@@ -11,3 +11,4 @@
 9. pip install tensorflow-gpu (텐서플로우 2.4버전 설치되며, numpy는 1.19.4로 자동설치되는데, 1.19.4때문에 텐서플로우 import가 안됨)
 10. pip install numpy==1.19.3 (1.19.3으로 다운그레이드)
 11. 텐서플로우가 gpu 인식하는지 확인해볼 것. 가상환경에 python 들어가서 from tensorflow.python.client import device_lib 입력 후 device_lib.list_local_devices() 입력해서 gpu가 뜨는지 확인
+12. conda install opencv 로 opencv 설치
