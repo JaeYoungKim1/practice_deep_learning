@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.keras.layers import Dense, Flatten, Conv2D
 from tensorflow.keras import Model
 import cv2
-
+import numpy as np
 # print(tf.keras.__version__)
 # print(tf.__version__)
 # print(cv2.__version__)
@@ -10,6 +10,7 @@ import cv2
 
 # tf.test.gpu_device_name()
 # tf.test.is_gpu_available()
+
 
 mnist = tf.keras.datasets.mnist
 
